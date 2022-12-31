@@ -49,6 +49,7 @@
   background-color:#ededed;
   }
   .bbs{
+  position: absolute;
   top: 50%;
 
 			left: 50%;
