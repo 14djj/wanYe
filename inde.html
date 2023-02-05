@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<title>时间计算器</title>
+ <style>
+ button{
+  height:50px;
+  width:32%;
+  
+   }
+ 
+ </style>
+  </head>
+  <body>	
+	<button id ="a">分钟转秒</button>
+    <button id ="b">小时转分</button>
+    <button id ="c">小时转秒</button>
+ <script>
+ a.onclick = function(){
+ var a = prompt("请输入分钟");
+ var b = a*60;
+ wc.alert(a+"分钟等于"+b+"秒");
+ }
+b.onclick = function(){
+    var a = prompt("请输入小时");
+    var b = a*60;
+    wc.alert(a+"小时等于"+b+"分");
+    }
+c.onclick = function(){
+ var a = prompt("请输入");
+ var b = a*60*60;
+ wc.alert(a+"小时等于"+b+"秒");
+ }
+ </script>
+ <script src="https://github.com/worm-ruchong/KC/blob/1621705fe94b77cdb6863acee7b6f80d3b2ba1f8/wc-3.0.6.min.js"></script>
+  </body>
+</html>
