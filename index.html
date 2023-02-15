@@ -4,19 +4,39 @@
 	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<title>打字机</title>
  <style>
- p::after{
+ #sd{
+   
+   }
+ #p::after{
    content:"( ๑ŏ ﹏ ŏ๑ )"
+   }
+ #jpg{
+   width:100%;
+   }
+ #dtbz{
+   font-size:32px;
    }
  </style>
   </head>
-  <body>	
-	<p id="p"></p>
-    <div onclick="a()" id="btn">我服了（⊙︿⊙请点这里）</div>
-    <a href="inde.html">更多小游戏</a>
+  <body>
+  <h2>这是一个正规网站</h2>
+  <hr>
+	<div id="sd">
+      <p id="p"></p >
+    </div>
+    <hr>
+    <h1 id="dtbz">动态壁纸</h1>
+    <button id="op">
+    < img src="https://p3-sign.douyinpic.com/tos-cn-i-0813c001/7282af2866584e6c87bef67e37e0eda1~q75.jpeg?x-expires=1679068800&x-signature=BcKdOuFUbV8%2Fk80p2VptUbUbjvc%3D&from=3213915784&s=PackSourceEnum_DOUYIN_REFLOW&se=false&biz_tag=aweme_images&l=2023021600381585EBC4F84AC8A622E3BF" id="jpg"/>
+    <li>上杉绘梨衣</li>
+    </button>
+    <hr>
+    <a href="https://14djj.github.io/wanYe/inde.html">更多小游戏</a >
     <script>
-    var btn = document.getElementById("btn");
-    function a(){
-        btn.style.display = "none";
+    var o = 0;
+    p.onclick=function (){
+     if(o==0){
+     o=1;
     let str = "我真的是服了你这个老六";
     let i = 0;
     let timer = setInterval(()=>{
@@ -25,8 +45,11 @@
       if(i == str.length-0){
         clearInterval(timer)
         };
-      },200);
+      },200);}
     }
+  op.onclick=function(){
+      window.location.href="in.html";
+      }
     </script>
   </body>
 </html>
