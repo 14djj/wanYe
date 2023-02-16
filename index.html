@@ -7,14 +7,28 @@
  #sd{
    
    }
+ #动态{
+   display:flex;
+   padding:2%;
+ 
+   }
  #p::after{
    content:"( ๑ŏ ﹏ ŏ๑ )"
    }
- #jp{
-   width:100%;
+ .op{
+   width:45%;
+   background-color:#d6f5ff;
+   margin:auto;
    }
  #dtbz{
    font-size:32px;
+   }
+ .jp{
+   width:100%;
+   
+   }
+ .li{
+   text-align:center;
    }
  </style>
   </head>
@@ -26,12 +40,18 @@
     </div>
     <hr>
     <h1 id="dtbz">动态壁纸</h1>
-    <div id="op">
-    <img src="https://i.imgtg.com/2023/02/16/d7MvD.jpg" id="jp">
-    <li>上杉绘梨衣</li>
+    <div id="动态">
+    <div class="op" id="sshly">
+    <img src="https://i.imgtg.com/2023/02/16/d7MvD.jpg" class="jp">
+    <div class="li">上杉绘梨衣</div>
+    </div>
+    <div class="op" id="sllh">
+    <img src="https://i.imgtg.com/2023/02/16/dNUQv.jpg" class="jp">
+    <div class="li">神里绫华</div>
+    </div>
     </div>
     <hr>
-    <a href="https://14djj.github.io/wanYe/inde.html">更多小游戏</a >
+    <a href="inde.html">更多小游戏</a >
     <script>
     var o = 0;
     p.onclick=function (){
@@ -47,8 +67,11 @@
         };
       },200);}
     }
-  op.onclick=function(){
+  sshly.onclick=function(){
       window.location.href="in.html";
+      }
+    sllh.onclick=function(){
+      window.location.href="n.html";
       }
     </script>
   </body>
