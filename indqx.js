@@ -1,10 +1,11 @@
-    setTimeout("b()",2000);
-    function b() {
+
+  setTimeout(
+    function () {
         var body1 = document.getElementById("body1");
         var body2 = document.getElementById("body2");
         body1.style.display = "none";
         body2.style.display = "block";
-        }
+        },10000);
     j.onclick=function(){
         var a = document.getElementById("a").value;
         var b = document.getElementById("b").value;
