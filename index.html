@@ -4,32 +4,59 @@
 	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<title>打字机</title>
  <style>
- #sd{
-   
-   }
- #动态{
-   display:flex;
-   padding:2%;
- 
+  body{ background:url(https://p4.a.yximgs.com/upic/2023/02/20/23/BMjAyMzAyMjAyMzMxNTJfMTk4MzYzMDczXzk2NjgyOTc2NDk0XzJfNg==_Ba8ff286f2e17e3cdbfd3c23f91c0b323.jpg?clientCacheKey=3xutuvtn6xgck32.jpg&di=7925590b&bp=10000) no-repeat;
    }
  #p::after{
    content:"( ๑ŏ ﹏ ŏ๑ )"
    }
- .op{
-   width:45%;
-   background-color:#d6f5ff;
-   margin:auto;
-   }
  #dtbz{
-   font-size:32px;
+   font-size:16px;
    }
- .jp{
+ .sp{
    width:100%;
-   
+   height:auto;
+   border-radius:20px;
+   background: rgba(195, 229, 231, 0.7);
+   padding-bottom:5%;
    }
- .li{
-   text-align:center;
-   }
+  .sp1{
+    width:50%;
+    height:100%;
+    background: rgba(245, 187, 201, 0.3);
+    margin:5% 1% 0% 5%;
+    }
+  .sp2{
+    width:50%;
+    height:100%;
+    background: rgba(245, 187, 201, 0.3);
+    margin:5% 5% 0% 1%;
+    }
+  .biaoti,.sph{
+    display:flex;
+    }
+  .sxsp{
+    width:15%;
+    margin:1% 0% 5% 60%;
+    background: rgba(195, 229, 231, 0.7);
+    aspect-ratio:16/6;
+   padding:1% 1% 1% 1%;
+   border-radius:9%;
+    }
+  .sx{
+    margin:0;
+    padding:0;
+    font-size:80%;
+    }
+  .jp{
+    width:100%;
+    aspect-ratio:16/9;
+    }
+  .sp1,.jp,.sp2{
+    border-radius:9%;
+    }
+  .li{
+    text-align:center;
+    }
  </style>
   </head>
   <body>
@@ -39,40 +66,47 @@
       <p id="p"></p >
     </div>
     <hr>
-    <h1 id="dtbz">动态壁纸</h1>
-    <div id="动态">
-    <div class="op" id="sshly">
-    <img src="https://i.imgtg.com/2023/02/16/d7MvD.jpg" class="jp">
-    <div class="li">上杉绘梨衣</div>
+    
+    <div class="biaoti">
+      <h1 id="dtbz">动态壁纸</h1>
+      <div class="sxsp" id="sxan">
+        <span class="sx">刷新视频</span>
+      </div>
     </div>
-    <div class="op" id="sllh">
-    <img src="https://i.imgtg.com/2023/02/16/dNUQv.jpg" class="jp">
-    <div class="li">神里绫华</div>
-    </div>
+    
+    <div class="sp">
+      <div class="sph">
+      
+        <div class="sp1">
+          <img src="https://p4.a.yximgs.com/ufile/atlas/NTIzMTQ5NDAxNDg2ODg2NTE4OF8xNjc2OTk0OTA5ODE4_0.jpg" class="jp" id="sshly">
+          <div class="li">上杉绘梨衣</div>
+        </div>
+        
+        <div class="sp2">
+          <img src="https://p4.a.yximgs.com/ufile/atlas/NTIzMTQ5NDAxNDg2ODg2NTE4OF8xNjc2OTk0OTA5ODE4_1.jpg" class="jp" id="sllh">
+          <div class="li">神里绫华</div>
+        </div>
+        
+      </div>
+      
+      <div class="sph">
+      
+        <div class="sp1">
+          <img src="https://p2.a.yximgs.com/upic/2023/02/21/00/BMjAyMzAyMjEwMDQ2MDhfMTk4MzYzMDczXzk2Njg1MzI1ODI5XzJfNg==_B9ba6c1f15638c2daf0e4792a1847a5c5.jpg?clientCacheKey=3x98w7vwsymkpxs.jpg&di=7925590b&bp=10000" class="jp" id="bailu">
+          <div class="li">白露</div>
+        </div>
+        
+        <div class="sp2">
+          <img src="https://p2.a.yximgs.com/upic/2023/02/21/00/BMjAyMzAyMjEwMDQ2MDhfMTk4MzYzMDczXzk2Njg1MzI1ODI5XzJfNg==_B9ba6c1f15638c2daf0e4792a1847a5c5.jpg?clientCacheKey=3x98w7vwsymkpxs.jpg&di=7925590b&bp=10000" class="jp" id="bai">
+          <div class="li">白露</div>
+        </div>
+        
+      </div>
+      
     </div>
     <hr>
-    <a href="iop.html">更多小游戏</a >
-    <script>
-    var o = 0;
-    p.onclick=function (){
-     if(o==0){
-     o=1;
-    let str = "我真的是服了你这个老六";
-    let i = 0;
-    let timer = setInterval(()=>{
-      p.innerText += str[i];
-      i++;
-      if(i == str.length-0){
-        clearInterval(timer)
-        };
-      },200);}
-    }
-  sshly.onclick=function(){
-      window.location.href="in.html";
-      }
-    sllh.onclick=function(){
-      window.location.href="n.html";
-      }
-    </script>
+    <a href="hinde.html">更多小游戏</a >
+    <script src="sp.js"></script>
   </body>
 </html>
+   
