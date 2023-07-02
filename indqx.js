@@ -5,7 +5,7 @@
         var body2 = document.getElementById("body2");
         body1.style.display = "none";
         body2.style.display = "block";
-        },10000);
+        },1);
     j.onclick=function(){
         var a = document.getElementById("a").value;
         var b = document.getElementById("b").value;
