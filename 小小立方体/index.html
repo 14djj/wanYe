@@ -10,30 +10,29 @@
       padding: 0;
     }
 
-    body {}
 
     .container {
-      perspective: 1000px;
+      perspective: 50000px;
       margin: 50px;
-      margin-top: 150px;
+      margin-top: 5px;
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
     }
 
     .cube {
-      width: 100px;
-      height: 100px;
+      width: 10px;
+      height: 10px;
       position: relative;
       transform-style: preserve-3d;
       transition: transform 0.001s;
-      margin: 10px;
+      margin: 1px;
     }
 
     .side {
       position: absolute;
-      width: 100px;
-      height: 100px;
+      width: 10px;
+      height: 10px;
       border: 1px solid black;
       box-sizing: border-box;
       display: flex;
@@ -45,37 +44,37 @@
     .front {
       background: url(https://jsmov2.a.yximgs.com/ufile/atlas/NTE5OTk2ODgyNDkwNDYyNzM0Ml8xNjg4MzU0NTIwOTMx_0.jpg) no-repeat center center;
       background-size: cover;
-      transform: translateZ(50px);
+      transform: translateZ(5px);
     }
 
     .back {
       background: url(https://jsmov2.a.yximgs.com/ufile/atlas/NTE5OTk2ODgyNDkwNDYyNzM0Ml8xNjg4MzU0NTIwOTMx_1.jpg) no-repeat center center;
       background-size: cover;
-      transform: translateZ(-50px) rotateY(180deg);
+      transform: translateZ(-5px) rotateY(180deg);
     }
 
     .right {
       background: url(https://jsmov2.a.yximgs.com/ufile/atlas/NTE5OTk2ODgyNDkwNDYyNzM0Ml8xNjg4MzU0NTIwOTMx_2.jpg) no-repeat center center;
       background-size: cover;
-      transform: rotateY(-90deg) translateZ(50px);
+      transform: rotateY(-90deg) translateZ(-5px);
     }
 
     .left {
       background: url(https://jsmov2.a.yximgs.com/ufile/atlas/NTE5OTk2ODgyNDkwNDYyNzM0Ml8xNjg4MzU0NTIwOTMx_3.jpg) no-repeat center center;
       background-size: cover;
-      transform: rotateY(90deg) translateZ(50px);
+      transform: rotateY(90deg) translateZ(5px);
     }
 
     .top {
       background: url(https://jsmov2.a.yximgs.com/ufile/atlas/NTE5OTk2ODgyNDkwNDYyNzM0Ml8xNjg4MzU0NTIwOTMx_4.jpg) no-repeat center center;
       background-size: cover;
-      transform: rotateX(90deg) translateZ(50px);
+      transform: rotateX(90deg) translateZ(5px);
     }
 
     .bottom {
       background: url(https://p3-sign.douyinpic.com/obj/douyin-user-image-file/aca64a6b4e5bbcd6f1092c5696dcb6b4?x-expires=1688374800&x-signature=%2B36b%2BgdPV%2BQ7FOjoUUnGo9RujDg%3D&from=2064092626) no-repeat center center;
       background-size: cover;
-      transform: rotateX(-90deg) translateZ(50px);
+      transform: rotateX(-90deg) translateZ(5px);
     }
   </style>
 </head>
@@ -130,7 +129,7 @@
     <div class="side top"></div>
     <div class="side bottom"></div>
   </div>
-  <div class="cube">
+    <div class="cube">
     <div class="side front"></div>
     <div class="side back"></div>
     <div class="side right"></div>
@@ -138,7 +137,7 @@
     <div class="side top"></div>
     <div class="side bottom"></div>
   </div>
-  <div class="cube">
+    <div class="cube">
     <div class="side front"></div>
     <div class="side back"></div>
     <div class="side right"></div>
@@ -146,22 +145,24 @@
     <div class="side top"></div>
     <div class="side bottom"></div>
   </div>
-</div>
-<script>
-  var deg = 0;
-  var cube = document.getElementsByClassName("cube");
-
-  function animate() {
-    deg += 1.5;
-    var d = deg + "deg";
-    for (var i = 0; i < cube.length; i++) {
-      cube[i].style.transform = `rotateX(${d}) rotateX(${d}) rotateZ(${d})`;
-    }
-    $("#cd").text(`我得法:${d}`);
-    requestAnimationFrame(animate);
-  }
-
-  animate();
-</script>
-</body>
-</html>
+    <div class="cube">
+    <div class="side front"></div>
+    <div class="side back"></div>
+    <div class="side right"></div>
+    <div class="side left"></div>
+    <div class="side top"></div>
+    <div class="side bottom"></div>
+  </div>
+    <div class="cube">
+    <div class="side front"></div>
+    <div class="side back"></div>
+    <div class="side right"></div>
+    <div class="side left"></div>
+    <div class="side top"></div>
+    <div class="side bottom"></div>
+  </div>
+    <div class="cube">
+    <div class="side front"></div>
+    <div class="side back"></div>
+    <div class="side right"></div>
+    <d
