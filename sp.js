@@ -31,6 +31,9 @@
   sshly.onclick=function(){
       window.location.href="in.html";
       }
+  dxy.onclick=function(){
+      window.location.href="dxy.html";
+      }
     sllh.onclick=function(){
       window.location.href="n.html";
       }
