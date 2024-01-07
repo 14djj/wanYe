@@ -16,9 +16,9 @@ html,body{
 
 </head>
 <body>
-    <audio loop="loop" autoplay="autoplay">
+<!--     <audio loop="loop" autoplay="autoplay">
         <source src="http://music.163.com/song/media/outer/url?id=1877996649.mp3" type="audio/mpeg">
-    </audio>
+    </audio> -->
 <canvas id="canvas" style="position:absolute;width:100%;height:100%;z-index:8888"></canvas>
 <canvas style="position:absolute;width:100%;height:100%;z-index:9999" class="canvas" ></canvas>
 <div class="overlay">
@@ -32,6 +32,7 @@ html,body{
   </div>
 </div>
 <script>
+
 function initVars(){
 
 	pi=Math.PI;
@@ -315,12 +316,14 @@ window.addEventListener("resize",()=>{
 	cx=canvas.width/2;
 	cy=canvas.height/2;
 });
+var audio = new Audio("http://m801.music.126.net/20231202195306/f707a3df3dad8b0c9bc74b9270d0c48b/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/16734463992/0615/ab62/fc4a/1a934a8e6b34dcda335fa4f5b2b95006.mp3");
 
+audio.play();
 initVars();
 frame();
 </script>
 <script>
-	
+
 	
 /*
 
