@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+table {
+  bottom:0%;
+  position: relative;
+  border-collapse: collapse;
+  border-spacing: 0;
+  /*margin-top: 40px; 为固定头部留出空间（根据实际高度调整） */
+}
+.target-image {
+  display: block;
+  width: 25vw;
+}
+#headki {
+  z-index: 3;
+  position: fixed; /* 关键修改：固定定位 */
+  top: 0;
+  left: 0;
+  width: 100%;
+  color: #ffffff;
+  background-color: #333; /* 可选：添加背景色 */
+  padding: 10px;
+  text-align: center;
+  font-size:16px;
+  transform:scale(1);
+}
