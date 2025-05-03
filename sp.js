@@ -1,19 +1,4 @@
-    sxan.onclick=function(){
-     var arrNum = [];
-     for(var i = 0; i < 2; i++) {
-       arrNum[i] = Math.floor(Math.random() * 3);
-       if(i > 0) {
-         for(var j = 0; j < i; j++) {
-          if(arrNum[j] == arrNum[i]) {
-            i--;
-            break;
-            };
-            };
-            };
-            };
-            alert(arrNum);
-            
-            }
+    
     var o = 0;
     p.onclick=function (){
      if(o==0){
